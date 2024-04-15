@@ -1,0 +1,355 @@
+html{
+  
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+
+body{
+      margin: 0;
+      background-color: #081b29;
+      color: aqua;
+
+}
+
+
+
+.home{
+    /* height: 1vh; */
+    margin-left: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+    
+}
+
+
+.css{
+    margin-left: 27px;
+    color: aqua;
+}
+
+.css::before{
+    content: '';
+    position: absolute;
+    width: 26%;
+    height: 5%;
+    background-color: #081b29;
+    animation: showLeft 1s ease forwards;
+    animation-delay: 0.4s;
+}
+
+header{
+    width: 80%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 0px;
+
+}
+
+header h1{
+    transition: color 0.3s ease;
+    float: left;
+    color: aqua;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header h1:hover{
+    color: rgb(0, 21, 255);
+}
+nav a{
+    transition: color 0.3s ease;
+    float: left;
+    color: aqua;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: rgb(0, 21, 255);
+}
+
+.hub{
+    font-size: 30px;
+}
+
+.din{
+    font-size: 30px;
+}
+
+.contenedor{
+    display: flex;
+    width: 550px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+
+.ima-1{
+    transition: box-shadow 0.3s ease;
+    margin-right: 10px;
+}
+
+
+.ima-1:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255);
+   
+    
+}
+
+.ima-2{
+    transition: box-shadow 0.3s ease;
+    margin-right: 10px;
+    
+}
+
+.ima-2:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+.ima-3{
+    transition: box-shadow 0.3s ease;
+    margin-right: 10px;
+    background-color: rgba(0, 221, 22, 0.1);
+}
+
+.ima-3:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+}
+
+.My{
+    transition: box-shadow 0.3s ease;;
+    background-color: rgb(255, 127, 127);
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+}
+
+.My:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+
+}
+
+.contenedor {
+    display: flex; /* Alinea los elementos en una fila */
+  }
+  
+  .imagen-con-texto {
+    position: relative; /* Para que el posicionamiento absoluto funcione correctamente */
+    margin-right: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .imagen {
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+  }
+  
+.texto1{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(-210%, -120%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 125px;
+    text-align: center;
+}
+
+.texto1:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255);
+}
+
+.texto2{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(0%, -120%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 125px;
+    text-align: center;
+}
+
+.texto2:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+
+.texto3{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(210%, -120%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 125px;
+    text-align: center;
+}
+
+.texto3:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+}
+
+
+
+
+.git a{
+    transition: box-shadow 0.3s ease;;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    top: 50%;
+    left: 50%;
+    margin-top: 90px;
+    cursor: pointer;
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.git:hover{
+    box-shadow: 0 0.1rem 0.4rem aqua ;
+}
+
+
+.projects{
+    width: 1000px;
+    white-space: nowrap;
+    padding: 1rem;
+}
+
+.weather{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(450%, 30%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: -1px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 125px;
+    text-align: center;
+}
+
+.weather:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+.sql{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(510%, 32%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: -1px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 170px;
+    text-align: center;
+}
+
+.sql:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+.course{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(610%, 30%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 0%; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 190px;
+    text-align: center;
+    
+}
+
+.course:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+
+
+
+.py{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(206%, 10%); /* Centra el texto exactamente */
+    /* background-color: rgba(255, 255, 255, 0.1);  */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 250px;
+    text-align: center;
+    color: #00ffff;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.py:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+.py a{
+    color: aqua;
+}
+
+.SQL{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(338%, 10%); /* Centra el texto exactamente */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 250px;
+    text-align: center;
+    color: #00ffff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.SQL:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+.SQL a{
+    color: aqua;
+}
+
+.pyt{
+    position: absolute; /* Posicionamiento absoluto */
+    transform: translate(458%, 10%); /* Centra el texto exactamente */
+    /* background-color: rgba(255, 255, 255, 0.1);  */
+    /* padding: 1px; */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 250px;
+    text-align: center;
+    color: #00ffff;
+    cursor: pointer;
+    margin-top: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.pyt:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 255, 119);
+}
+
+.pyt a{
+    color: aqua;
+}
+
+
+@keyframes showLeft{
+    100%{
+        width: 0;
+    }
+}
+
+
+/* FALTA CENTRAR LOS PROJECTS, AGREGAR HYPERLINK DE GITHUB Y POSIBLEMENTE AGREGAR EL ICONO DE GITHUB Y AGREGAR ALGO QUE DIGA SOLO HTML Y CSS */
